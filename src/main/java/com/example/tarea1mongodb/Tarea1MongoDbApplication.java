@@ -1,13 +1,13 @@
 package com.example.tarea1mongodb;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import com.example.tarea1mongodb.controller.Controller;
 
-@SpringBootApplication
-public class Tarea1MongoDbApplication {
+/**
+ * Clase main desde la que se ejecuta el programa
+ */
+public class Main {
 
     public static void main(String[] args) {
-        SpringApplication.run(Tarea1MongoDbApplication.class, args);
+        new Controller().logicaPrograma(); //llamamos al metodo del controller que tiene la lógica de la aplicación
     }
-
 }

@@ -1,5 +1,9 @@
 package com.example.tarea1mongodb.config;
 
+import com.mongodb.client.MongoClient;
+import com.mongodb.client.MongoClients;
+import com.mongodb.client.MongoDatabase;
+
 
 /**
  * Clase de configuracuón para mongoDb

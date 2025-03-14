@@ -3,6 +3,9 @@ package com.example.tarea1mongodb.controller;
 
 import java.util.List;
 import java.util.Map;
+import com.example.tarea1mongodb.config.MongoDbInserccionConJSon;
+import com.example.tarea1mongodb.config.MongoDbInserccionSinJSon;
+import com.example.tarea1mongodb.config.LecturaJsonColecciones;
 
 /**
  * Clase controller con la lógica de la aplicación
